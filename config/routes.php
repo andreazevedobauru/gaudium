@@ -10,4 +10,12 @@ return function (Router $router) use ($services) {
         $services['fareCalculator'](),
         $services['fareRepository']()
     ), 'calculateFare']);
+    $router->add('GET', '/categories', function() use ($categoryController) {
+        if (isset($_GET['city_id'])) {
+            $categoryController->getCategoriesByCity($_GET['city_id']);
+        } else {
+            http_response_code(400);
+            echo json_encode(['error' => 'City ID is required']);
+        }
+    });
 };

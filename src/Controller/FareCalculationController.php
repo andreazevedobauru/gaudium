@@ -2,7 +2,7 @@
 namespace App\Controller;
 
 use App\Service\IFareCalculator;
-use IFareRepository;
+use App\Repository\IFareRepository;
 use PDOException;
 
 class FareCalculationController {
