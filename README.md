@@ -14,5 +14,6 @@ De qualquer forma, obg.
 ### A resposta da questão 1, pode ser encontrada nas migrations e seeders que criei dentro de /database
 ### A resposta da questão 2, pode ser encontrada no arquivo FireCalculationController
 ### A resposta da questão 3, pode ser encontrada no arquivo CategoryController
-### A resposta da questão 3, pode ser encontrada no arquivo CategoryController
+### A resposta da questão 4, pode ser encontrada no arquivo Vies
+### A resposta da questão 5, 
 
